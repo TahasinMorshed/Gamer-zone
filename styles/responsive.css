@@ -1,0 +1,31 @@
+/* 
+    responsive for mobile large devices
+*/
+@media only screen and (max-width: 425px) {
+    .navbar {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .social-media {
+        margin-top: 62px;
+    }
+}
+
+
+
+/* 
+    responsive for tablet devices
+*/
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 60px;
+    }
+}
