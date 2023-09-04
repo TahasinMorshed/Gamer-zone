@@ -172,7 +172,7 @@ nav .social-media .youtube {
     text-transform: lowercase;
 }
 
-.banner-btn {
+.banner-btn, .know-more-btn {
     border: none;
     outline: none;
     padding: 21px 40px;
@@ -196,3 +196,74 @@ nav .social-media .youtube {
 .rogue-btn {
     background: #4EC5F7;
 }
+
+/* 
+    banner Styles End
+*/
+
+
+/* 
+    Gamer section Styles Start from Here
+*/
+
+
+#gamer-section {
+    padding: 96px 40px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    
+}
+
+
+.gamer-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 52px;
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+
+.gamer-heading {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 24px;
+}
+
+.gamer-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    line-height: 30px; 
+}
+.know-more-btn-container{
+    text-align: right;
+    padding-bottom: 24px;
+}
+.know-more-btn{
+    background:  linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+  
+}
+.gamer-purpose{
+    text-align: right;
+    line-height: 45px;
+    color: #534C64;
+}
+.gamer-purpose p{
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+.gamer-purpose h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* 
+    Gamer section Styles End
+*/
