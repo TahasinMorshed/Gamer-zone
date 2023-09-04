@@ -15,6 +15,26 @@
     .social-media {
         margin-top: 62px;
     }
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .banner-image img {
+        max-width: 300px;
+    }
+    .banner-info{
+        padding: 20px;
+    }
+    .banner-btn{
+        padding: 5px 10px;
+    }
+    .banner-heading {
+        font-size: 40px;
+    }
+    .banner-goat {
+        font-size: 75px;
+    }
 }
 
 
@@ -27,5 +47,25 @@
     .navbar {
         flex-direction: column;
         gap: 60px;
+    }
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .banner-image img {
+        max-width: 400px;
+    }
+    .banner-info{
+        padding: 30px;
+    }
+    .banner-btn{
+        padding: 21px 40px;
+    }
+    .banner-heading {
+        font-size: 48px;
+    }
+    .banner-goat {
+        font-size: 95px;
     }
 }
