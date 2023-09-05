@@ -492,3 +492,41 @@ nav .social-media .youtube {
 /* 
     careers section Styles End
 */
+
+
+#games-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.games-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    gap: 55px;
+   margin: 120px 40px;
+}
+
+.games-box {
+    max-width: 243px;
+    max-height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 2px 2px 2px 1px rgba(223, 221, 221, 0.903);
+
+}
+
+.games-box img {
+    width: 60px;
+    height: 60px;
+}
+
+.games-box p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+
+}

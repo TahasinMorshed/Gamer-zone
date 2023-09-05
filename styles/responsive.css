@@ -111,6 +111,13 @@
         max-width: 513px;
         padding-top: 20px;
     }
+
+    .games-container{
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 25px;
+       margin: 120px 10px;
+    }
 }
 
 
