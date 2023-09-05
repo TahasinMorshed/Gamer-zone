@@ -13,6 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    /* border: #0B0223 solid 2px; */
 }
 
 /* 
@@ -324,6 +325,7 @@ nav .social-media .youtube {
     max-width: 342px;
     max-height: 400px;
     margin-bottom: 24px;
+    z-index: 50;
 }
 
 .card-description {
@@ -445,6 +447,8 @@ nav .social-media .youtube {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -494,17 +498,17 @@ nav .social-media .youtube {
 */
 
 
-#games-section{
+#games-section {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.games-container{
+.games-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     gap: 55px;
-   margin: 120px 40px;
+    margin: 120px 40px;
 }
 
 .games-box {
@@ -516,7 +520,16 @@ nav .social-media .youtube {
     align-items: center;
     gap: 16px;
     box-shadow: 2px 2px 2px 1px rgba(223, 221, 221, 0.903);
+    transition: all  ease-in-out 1s;
 
+}
+
+.games-box:hover {
+    border: 1.5px solid #FF42A5;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .games-box img {
@@ -528,5 +541,74 @@ nav .social-media .youtube {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
+
+}
+
+
+/* 
+    footer section styles start 
+*/
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    padding-bottom: 56px;
+    padding-top: 130px;
+    margin: 0 auto;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+footer {
+    background: #0B0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.footer-logo-heading {
+    color: #fff;
+
+}
+
+.footer-nav {
+    color: #fff;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 74px;
+    justify-content: center;
+}
+
+.about-footer {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 60px;
+    padding-bottom: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    padding-bottom: 130px;
+    text-align: center;
 
 }

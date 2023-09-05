@@ -108,7 +108,7 @@
         font-size: 16px;
     }
     .careers-image img{
-        max-width: 513px;
+        max-width: 313px;
         padding-top: 20px;
     }
 
@@ -117,6 +117,19 @@
         justify-content: center;
         gap: 25px;
        margin: 120px 10px;
+    }
+    .games-box {
+        max-width: 143px;
+    
+    }
+    .games-box img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .games-box p {
+        font-size: 10px;
+    
     }
 }
 
@@ -189,7 +202,7 @@
         online games section responsive styles 
     */
     .card-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .playinstant-container{
@@ -217,7 +230,41 @@
         padding: 30px;
     }
     .careers-image img{
-        max-width: 713px;
+        max-width: 513px;
         padding-top: 20px;
+    }
+    .games-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .games-box {
+        max-width: 143px;
+    
+    }
+    .games-box img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .games-box p {
+        font-size: 10px;
+    
+    }
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .careers-image img{
+        max-width: 613px;
+    }
+    .playinstant-img{
+        max-width: 350px;
+    }
+    .playinstant-corner-image, .playinstant-corner-image-2{
+        max-width: 250px;
     }
 }
