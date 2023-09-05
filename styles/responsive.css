@@ -29,18 +29,23 @@
         flex-direction: column-reverse;
         gap: 24px;
     }
+
     .banner-image img {
         max-width: 150px;
     }
-    .banner-info{
+
+    .banner-info {
         padding: 20px;
     }
-    .banner-btn{
+
+    .banner-btn {
         padding: 5px 10px;
     }
+
     .banner-heading {
         font-size: 40px;
     }
+
     .banner-goat {
         font-size: 75px;
     }
@@ -50,14 +55,26 @@
         gamer section responsive styles 
     */
 
-    .gamer-container{
+    .gamer-container {
         flex-direction: column;
     }
-    .gamer-image{
+
+    .gamer-image {
         max-width: 400px;
     }
-    .gamer-heading, .gamer-purpose , .gamer-description, .know-more-btn-container{
+
+    .gamer-heading,
+    .gamer-purpose,
+    .gamer-description,
+    .know-more-btn-container {
         text-align: center;
+    }
+
+    /* 
+        online games section responsive styles 
+    */
+    .card-container {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -87,18 +104,23 @@
         flex-direction: column-reverse;
         gap: 24px;
     }
+
     .banner-image img {
         max-width: 400px;
     }
-    .banner-info{
+
+    .banner-info {
         padding: 30px;
     }
-    .banner-btn{
+
+    .banner-btn {
         padding: 21px 40px;
     }
+
     .banner-heading {
         font-size: 48px;
     }
+
     .banner-goat {
         font-size: 95px;
     }
@@ -106,13 +128,25 @@
     /* 
         gamer section styles
     */
-    .gamer-container{
+    .gamer-container {
         flex-direction: column;
     }
-    .gamer-image{
+
+    .gamer-image {
         max-width: 500px;
     }
-    .gamer-heading, .gamer-purpose , .gamer-description, .know-more-btn-container{
+
+    .gamer-heading,
+    .gamer-purpose,
+    .gamer-description,
+    .know-more-btn-container {
         text-align: center;
+    }
+
+     /* 
+        online games section responsive styles 
+    */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 37px 0;
+    padding: 37px 30px;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -172,7 +172,8 @@ nav .social-media .youtube {
     text-transform: lowercase;
 }
 
-.banner-btn, .know-more-btn {
+.banner-btn,
+.know-more-btn {
     border: none;
     outline: none;
     padding: 21px 40px;
@@ -210,7 +211,7 @@ nav .social-media .youtube {
 #gamer-section {
     padding: 96px 40px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-    
+
 }
 
 
@@ -221,7 +222,7 @@ nav .social-media .youtube {
     gap: 52px;
     max-width: 1440px;
     margin: 0 auto;
-   
+
 }
 
 .gamer-heading {
@@ -239,31 +240,106 @@ nav .social-media .youtube {
     color: #534C64;
     text-align: right;
     font-size: 18px;
-    line-height: 30px; 
+    line-height: 30px;
 }
-.know-more-btn-container{
+
+.know-more-btn-container {
     text-align: right;
     padding-bottom: 24px;
 }
-.know-more-btn{
-    background:  linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-  
+
+.know-more-btn {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+
 }
-.gamer-purpose{
+
+.gamer-purpose {
     text-align: right;
     line-height: 45px;
     color: #534C64;
 }
-.gamer-purpose p{
+
+.gamer-purpose p {
     font-size: 24px;
     font-weight: 500;
-   
+
 }
-.gamer-purpose h2{
+
+.gamer-purpose h2 {
     font-size: 32px;
     font-weight: 700;
 }
 
 /* 
     Gamer section Styles End
+*/
+
+
+
+/* 
+    online games section Styles Start from Here
+*/
+
+#online-games-section {
+    padding-top: 120px;
+}
+
+.online-games-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.online-games-info {
+    text-align: center;
+}
+
+.online-games-heading {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+
+}
+
+.online-games-funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.online-games-description {
+    color: #534C64;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 48px;
+
+}
+
+.card-image {
+    max-width: 342px;
+    max-height: 400px;
+    margin-bottom: 24px;
+}
+.card-description{
+    max-width: 342px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    justify-content: center;
+    margin: auto 50px;
+}
+
+/* 
+    online games section Styles End
 */
